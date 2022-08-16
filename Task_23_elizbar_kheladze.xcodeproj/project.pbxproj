@@ -13,6 +13,8 @@
 		2D466CD028AB787900CFBD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D466CCE28AB787900CFBD77 /* Main.storyboard */; };
 		2D466CD228AB788100CFBD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D466CD128AB788100CFBD77 /* Assets.xcassets */; };
 		2D466CD528AB788100CFBD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D466CD328AB788100CFBD77 /* LaunchScreen.storyboard */; };
+		2D466CDE28AB78FD00CFBD77 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D466CDD28AB78FD00CFBD77 /* TV.swift */; };
+		2D466CE128AB7B3500CFBD77 /* TV_Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D466CE028AB7B3500CFBD77 /* TV_Call.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2D466CD128AB788100CFBD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D466CD428AB788100CFBD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D466CD628AB788100CFBD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D466CDD28AB78FD00CFBD77 /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+		2D466CE028AB7B3500CFBD77 /* TV_Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Call.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		2D466CC728AB787900CFBD77 /* Task_23_elizbar_kheladze */ = {
 			isa = PBXGroup;
 			children = (
+				2D466CDF28AB7B1B00CFBD77 /* services */,
+				2D466CDC28AB78EC00CFBD77 /* Model */,
 				2D466CC828AB787900CFBD77 /* AppDelegate.swift */,
 				2D466CCA28AB787900CFBD77 /* SceneDelegate.swift */,
 				2D466CCC28AB787900CFBD77 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				2D466CD628AB788100CFBD77 /* Info.plist */,
 			);
 			path = Task_23_elizbar_kheladze;
+			sourceTree = "<group>";
+		};
+		2D466CDC28AB78EC00CFBD77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D466CDD28AB78FD00CFBD77 /* TV.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D466CDF28AB7B1B00CFBD77 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				2D466CE028AB7B3500CFBD77 /* TV_Call.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D466CE128AB7B3500CFBD77 /* TV_Call.swift in Sources */,
 				2D466CCD28AB787900CFBD77 /* ViewController.swift in Sources */,
+				2D466CDE28AB78FD00CFBD77 /* TV.swift in Sources */,
 				2D466CC928AB787900CFBD77 /* AppDelegate.swift in Sources */,
 				2D466CCB28AB787900CFBD77 /* SceneDelegate.swift in Sources */,
 			);
